@@ -1,0 +1,65 @@
+.work {
+    width: 40%;
+    height: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    height: 90%;
+    width: 90%;
+    background-color: #d3d3d3;
+    margin-top: 5%;
+}
+
+h3 {
+    background-color: #eaf8ff;
+}
+
+span {
+    margin-top: 10px;
+}
+
+button {
+    margin: 10px 0;
+}
+
+.description {
+    background-color: #eaf8ff;
+}
+
+.workTopBlock {
+    background-color: #00447c;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.workBottomBlock {
+    padding-top: 10px;
+    background-color: #acc5da;
+    width: 100%;
+    height: 50%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px){
+    .work {
+        width: 70%;
+        height: 40%;
+    }
+    .workTopBlock {
+        width: 100%;
+        height: 90%;
+    }
+}

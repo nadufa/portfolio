@@ -1,0 +1,38 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: #ffd1e4;
+    display: flex;
+    align-items: center;
+}
+
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 60%;
+    height: 300px;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+.contacts input {
+    height: 10%;
+}
+
+@media screen and (max-width: 750px){
+    .contactsContainer {
+        justify-content: space-evenly;
+    }
+    .contacts {
+        width: 80%;
+    }
+}

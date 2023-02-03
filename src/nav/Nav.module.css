@@ -1,0 +1,44 @@
+.nav {
+    border: 1px solid red;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav {
+        font-size: 20px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nav {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav {
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav {
+        font-size: 17px;
+    }
+}
