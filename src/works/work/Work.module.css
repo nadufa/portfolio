@@ -6,11 +6,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin: 25px;
 }
 
 .icon {
-    height: 90%;
-    width: 90%;
+    height: 230px;
+    width: 350px;
     background-color: #d3d3d3;
     margin-top: 5%;
 }
@@ -53,13 +54,37 @@ button {
     align-items: center;
 }
 
-@media screen and (max-width: 600px){
-    .work {
-        width: 70%;
-        height: 40%;
-    }
-    .workTopBlock {
-        width: 100%;
-        height: 90%;
+@media screen and (max-width: 1440px) {
+    .icon {
+        height: 150px;
+        width: 250px;
     }
 }
+
+@media screen and (max-width: 990px) {
+    .icon {
+        height: 120px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .icon {
+        height: 100px;
+        width: 140px;
+    }
+    .work {
+        width: 80%;
+    }
+    .worksBlock {
+        padding: 70px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .icon {
+        height: 80px;
+        width: 120px;
+    }
+}
+

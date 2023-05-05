@@ -5,7 +5,7 @@ import styleContainer from './../common/styles/Container.module.css';
 const Footer = () => {
     return (
         <div className={style.footerBlock}>
-            <div className={`${styleContainer.container} ${style.footerContainer}`}>
+            <div className={style.footerContainer}>
                 <h3>Митрофанова Надежда</h3>
                 <div className={style.footerItems}>
                     <div className={style.item}></div>

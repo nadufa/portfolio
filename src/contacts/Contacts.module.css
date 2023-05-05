@@ -1,13 +1,18 @@
 .contactsBlock {
-    height: 100vh;
+    height: auto;
     background-color: #ffd1e4;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 100px 0;
 }
 
 .contactsContainer {
+    border: 1px solid red;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    width: 80%;
 }
 
 .contacts {
@@ -20,7 +25,7 @@
 }
 
 h3 {
-    margin: 0;
+    margin-bottom: 50px;
     background-color: #f3f3f3;
 }
 
@@ -28,9 +33,12 @@ h3 {
     height: 10%;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 770px){
+    .contactsBlock {
+        padding: 50px 0;
+    }
     .contactsContainer {
-        justify-content: space-evenly;
+        width: 100%;
     }
     .contacts {
         width: 80%;

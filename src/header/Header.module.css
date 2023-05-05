@@ -1,11 +1,33 @@
 .header {
     height: 80px;
+    min-height: fit-content;
     width: 100vw;
     background-color: #9fbaff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 1440px) {
     .header {
-        height: 50px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .header {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        height: 55px;
     }
 }
