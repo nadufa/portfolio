@@ -1,21 +1,48 @@
 .skill {
     width: 250px;
-    background-color: #eaeaea;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.skill h3 {
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 5px;
+}
+
+.description {
 }
 
 .icon {
-    height: 60px;
-    width: 60px;
-    background-color: #d3d3d3;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 3px solid rgba(170, 145, 231, 0.77);
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and (max-width: 950px){
     .skill {
         margin: 5% auto;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 770px){
+    .skill {
+        padding: 5px;
     }
 
 }

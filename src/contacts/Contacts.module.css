@@ -1,6 +1,6 @@
 .contactsBlock {
     height: auto;
-    background-color: #ffd1e4;
+    background-color: #f9ebfd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .contactsContainer {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,19 +18,29 @@
 .contacts {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    width: 60%;
+    /*border: 1px solid black;*/
+    width: 50%;
     height: 300px;
     justify-content: space-between;
 }
 
-h3 {
-    margin-bottom: 50px;
-    background-color: #f3f3f3;
+/*h3 {*/
+/*    margin-bottom: 50px;*/
+/*    background-color: #f3f3f3;*/
+/*}*/
+
+.contacts input, textarea {
+    font-size: medium;
+    height: 12%;
+    border-radius: 20px;
+    border: 3px solid rgba(170, 145, 231, 0.77);
+    background-color: #ffffff;
+    padding: 0 10px;
 }
 
-.contacts input {
-    height: 10%;
+.contacts textarea {
+    height: 55%;
+    padding: 10px 10px;
 }
 
 @media screen and (max-width: 770px){

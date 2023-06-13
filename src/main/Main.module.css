@@ -1,80 +1,107 @@
 .mainBlock {
     height: auto;
-    width: 100vw;
-    background-color: #f2d6ff;
+    width: 100%;
+    background-color: #f9ebfd;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 160px 0 80px;
 }
 
 .mainContainer {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .text {
     width: 425px;
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
+    margin-top: 70px;
+    text-align: center;
+}
+
+.text h1 {
+    color: black;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.text h2 {
+    color: #282828;
+    font-size: large;
+    margin-top: 10px;
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: #ececec;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    border: 5px solid rgba(170, 145, 231, 0.77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 1440px){
-
+    .mainBlock {
+        padding: 150px 0 80px;
+    }
 }
 
 @media screen and (max-width: 990px){
+    .mainBlock {
+        padding: 145px 0 70px;
+    }
     .text {
         width: 300px;
+        margin-top: 50px;
     }
     .text h1 {
         font-size: 30px;
-    }
-
-    .photo {
-        width: 200px;
-        height: 300px;
     }
 }
 
 @media screen and (max-width: 770px){
     .mainBlock {
-        padding: 70px 0;
+        padding: 140px 0 70px;
     }
     .text {
         width: 200px;
+        margin-top: 30px;
     }
     .text h1 {
         font-size: 25px;
     }
     .photo {
-        width: 150px;
+        margin: 50px 0;
+        width: 400px;
         height: 250px;
-        background-color: #ececec;
     }
 }
 
 @media screen and (max-width: 450px){
     .mainBlock {
-        padding: 50px 0;
+        padding: 110px 0 50px;
     }
     .mainContainer {
+
         width: 100%;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+    .photo {
+        margin: 50px 0;
+        width: 300px;
+        height: 250px;
     }
     .text {
         width: 250px;
-        background-color: #f5f5f5;
-        margin-bottom: 80px;
+        margin-top: 15px;
     }
 }

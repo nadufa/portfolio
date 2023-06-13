@@ -1,17 +1,21 @@
 import React from 'react';
 import style from './Main.module.css';
-import styleContainer from './../common/styles/Container.module.css';
+import myPhotoIMG from'../assets/img/myPhoto.jpg'
 
 const Main = () => {
+
+    const myPhoto = {
+        backgroundImage: `url(${myPhotoIMG})`,
+    }
+
     return (
         <div className={style.mainBlock}>
             <div className={style.mainContainer}>
+                <div className={style.photo} style={myPhoto}></div>
                 <div className={style.text}>
-                    <span>Hi there</span>
-                    <h1>I am Nadezhda Mitrofanova</h1>
-                    <p>Frontend Developer</p>
+                    <h1>Nadezhda Mitrofanova</h1>
+                    <h2>Frontend Developer</h2>
                 </div>
-                <div className={style.photo}></div>
             </div>
         </div>
     );

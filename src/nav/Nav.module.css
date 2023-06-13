@@ -1,5 +1,5 @@
 .nav {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 80%;
     height: 60%;
     display: flex;
@@ -8,6 +8,20 @@
     font-size: 25px;
     max-font-size: 10vh;
 }
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px rgba(33, 27, 47, 0.84);
+}
+
+.nav a:hover {
+    /*color: rgba(255, 255, 255, 0.91);*/
+    letter-spacing: 1.2px;
+    text-shadow: none;
+}
+
+
 
 @media screen and (max-width: 1440px) {
 
